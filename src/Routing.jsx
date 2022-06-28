@@ -1,11 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
+import HomePage from "./components/HomePage/HomePage";
 
 const Routing = () => {
   return (
     <Routes>
-      <Route />
+      <Route path="/" element={<HomePage />} />
       <Route />
       <Route />
       <Route />
